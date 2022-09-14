@@ -1,0 +1,18 @@
+h1{
+color: red;
+}
+a{
+    color: blue;
+    font-size: 20px;
+}
+a:hover{
+    color: #000;
+}
+.abc
+{color: aqua;
+    text-shadow: 2px 3px crimson;
+}
+.bg{background-color: chartreuse;
+}
+.bgimg{background-image: url("../images/bg.jpg");
+}
