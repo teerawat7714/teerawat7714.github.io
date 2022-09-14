@@ -1,18 +1,50 @@
-h1{
-color: red;
+h1 {
+    color: red;
 }
-a{
+
+a {
     color: blue;
     font-size: 20px;
 }
-a:hover{
+
+a:hover {
     color: #000;
 }
-.abc
-{color: aqua;
+
+.abc {
+    color: aqua;
     text-shadow: 2px 3px crimson;
 }
-.bg{background-color: chartreuse;
+
+.bg {
+    background-color: chocolate;
 }
-.bgimg{background-image: url("../images/bg.jpg");
+
+.bgimg {
+    background-image: url("../images/bg.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
