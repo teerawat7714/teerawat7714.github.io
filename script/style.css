@@ -56,7 +56,12 @@ li a:hover {
 }
 
 .border{
-    border:  5px lime cornsilk;
-    border-radius: 5px;
+    border:  5px lime solid;
+    border-radius: 20px;
     color: coral;
+    padding: 50px 10px;
+}
+
+.f18{
+    font-size: 18px;
 }
