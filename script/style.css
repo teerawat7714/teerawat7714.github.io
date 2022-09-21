@@ -48,5 +48,15 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #6b2db8;
+}
+
+.bg-white{
+    color: hsl(123, 85%, 33%);
+}
+
+.border{
+    border:  5px lime cornsilk;
+    border-radius: 5px;
+    color: coral;
 }

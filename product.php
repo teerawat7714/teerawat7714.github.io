@@ -10,15 +10,11 @@
 </head>
 <body class="bg">
 
-
-    <ul>
-        <li><a href="index.html"> หน้าหลัก </a></li>
-        <li><a href="about.html"> เกี่ยวกับเรา </a></li>
-        <li><a href="contact.html"> ติดต่อเรา </a></li>
-        <li><a href="product.html"> สินค้า </a></li>
-        <li><a href="service.html"> บริการของเรา </a></li>
-        <li><a href="resume.html"> ผู้จัดทำ </a></li>
-    </ul>
+    <?php
+    include "navbar.php";
+    ?>
+   
+   
 
    
     <img src="./images/ประชานิเวศน์3-1.jpg" height="200px"/>
