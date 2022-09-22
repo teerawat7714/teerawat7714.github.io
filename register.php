@@ -11,6 +11,6 @@
 <?php
     include "navbar.php";
     ?>
-   
+   <h1>register</h1>
 </body>
 </html>
