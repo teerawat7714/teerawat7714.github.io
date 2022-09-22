@@ -12,5 +12,15 @@
     include "navbar.php";
     ?>
    <h1>register</h1>
+   <form>action="register.php" method="post" enctype="multipart/form-data">
+    first name <input type="text" name="firstname" />> <br/>>
+    last name  <input type="text" name="firstname" />> <br/>>
+    email<input type="email" name="email" />> <br />
+    password <input type="" name="password" />> <br />
+    Address<textarea rows="5" cols="50" name="address"></textarea> <br/>
+    <input type="submit" value="ลงทะเบียน" />>
+    
+
+   </form>
 </body>
-</html>
+</html> 

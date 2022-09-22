@@ -12,7 +12,7 @@
     include "navbar.php";
     ?>
    <h1>login</h1>
-   <form>
+   <form action="login.php" method="post" enctype="multipart/form-data">
      email:
     <input type="text" name="email" />> <br />
     password :
