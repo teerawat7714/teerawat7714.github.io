@@ -13,9 +13,17 @@
     <?php
     include "navbar.php";
     ?>
-   
-   
+    <form action="product_insert.php" method="post" enctype="multipart/form-data">
 
+ชื่่อสินค้า <input type="text" name="name" /> <br />
+สินค้าคงเหลือ <input type="text" name="stock" /> <br />
+ราคา <input type="text" name="price" /> <br />
+ชื่อกลุ่มสินค้า <input type="text" name="cat_name" /><br />
+รายละเอียดสินค้า<textarea rows="5" cols="50" name="description"></textarea> <br />
+<input type="submit" name="บันทึกช้อมูล" />
+
+</form>
+   
    
     <img src="./images/ประชานิเวศน์3-1.jpg" height="200px"/>
     <img src="./images/ประชานิเวศน์3-2.jpg" height="200px"/>
